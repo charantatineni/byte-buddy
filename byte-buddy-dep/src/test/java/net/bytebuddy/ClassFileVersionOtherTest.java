@@ -83,7 +83,7 @@ public class ClassFileVersionOtherTest {
                 }
             }
         }
-        assertThat(ClassFileVersion.latest().getMajorVersion(), is((short) value));
+        assertThat(ClassFileVersion.latest().getMajorVersion(), is((short) 64));
     }
 
     @Test(expected = IllegalArgumentException.class)
